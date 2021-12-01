@@ -8,7 +8,7 @@ namespace Task_6
 {
     class Program
     {
-        static void Main(string[] args)  //самое длинное слово в предложении
+        static void Main(string[] args)  //поиск самого длинного слова в предложении
         {
             {
                 Console.WriteLine("Введите предложение, без знаков припинания:");
