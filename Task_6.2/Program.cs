@@ -15,14 +15,14 @@ namespace Task_6._2
             startString = startString.Replace(" ", "");    //убрали пробелы
             startString = startString.ToUpper();           // перевели в верхний регистр
 
-            char[] stringArray = startString.ToCharArray();
+            char[] stringArray = startString.ToCharArray();  // преобразовали в массив
 
 
-            Array.Reverse(stringArray);
+            Array.Reverse(stringArray);                       // Реверс строки
 
-            string finalString = new string(stringArray);
+            string finalString = new string(stringArray);     //из массива вытянули строку
 
-            if (finalString == startString)
+            if (finalString == startString)                    // сравнили
             {
                 Console.WriteLine("Введеное предложение является палиндромом");
             }
